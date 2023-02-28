@@ -1,0 +1,59 @@
+body {
+	font-family: Arial;
+}
+
+.centered {
+  text-align: center;
+}
+
+
+.flexrow {
+  display: flex;
+}
+
+
+#flexcolumn1 {
+  flex: 33%;
+}
+
+
+#flexcolumn2 {
+  flex: 33%;
+}
+
+#flexcolumn3 {
+  flex: 34%;
+}
+
+.chart-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.brushed {
+    opacity: 1 !important;
+    stroke: orange !important;
+}
+
+.point {
+  fill: mediumpurple;
+  r: 5px;
+}
+
+.setosa {
+	fill: green;
+	opacity: 50%;
+	r: 5px
+}
+
+.versicolor {
+	fill: blue;
+	opacity: 50%;
+	r: 5px
+}
+
+.virginica {
+	fill: red;
+	r: 5px;
+	opacity: 50%;
+}
