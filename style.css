@@ -26,13 +26,9 @@ body {
 }
 
 .chart-header {
+	font-family: Arial;
     font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.brushed {
-    opacity: 1 !important;
-    stroke: orange !important;
+    font-size: 18px;
 }
 
 .point {
@@ -41,19 +37,29 @@ body {
 }
 
 .setosa {
-	fill: green;
+	fill: lightseagreen;
 	opacity: 50%;
 	r: 5px
 }
 
 .versicolor {
-	fill: blue;
+	fill: darkred;
 	opacity: 50%;
 	r: 5px
 }
 
 .virginica {
-	fill: red;
+	fill: blue;
 	r: 5px;
 	opacity: 50%;
+}
+
+.bar{
+  fill: skyblue;
+}
+
+.selected {
+	stroke: orange;
+  	stroke-width: 3px;
+  	opacity: 1 !important;
 }
