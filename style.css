@@ -39,19 +39,19 @@ body {
 .setosa {
 	fill: lightseagreen;
 	opacity: 30%;
-	r: 6px
+	r: 5px
 }
 
 .versicolor {
 	fill: yellowgreen;
 	opacity: 30%;
-	r: 6px
+	r: 5px
 }
 
 .virginica {
 	fill: blue;
-	r: 6px;
 	opacity: 30%;
+	r: 5px
 }
 
 .bar{
